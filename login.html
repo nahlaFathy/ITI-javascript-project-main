@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/cookies.js"></script>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+
+<body class="img">
+    <div id="form">
+        <form id="myform"  method="POST">
+
+
+            <table>
+                <tr>
+                    <td>
+                        <input type="text" name="email" placeholder="Enter Email">
+                    </td>
+                    <td>
+                        <p id="para1"></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="password" name="password" placeholder="Enter Password">
+                    </td>
+                    <td>
+                        <p id="para2"></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" id="submit" value="Login">
+                        <button onclick="location.href = 'index.html'">Register</button>
+                    </td>
+
+                </tr>
+
+            </table>
+
+        </form>
+    </div>
+    <script src="js/login.js"></script>
+</body>
+
+</html>

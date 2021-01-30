@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <script src="js/jquery-3.5.1.js"></script>
+    <link rel="stylesheet" href="css/register.css">
+</head>
+
+<body>
+    <div class="img">
+        <div id="form">
+            <form id="myform" action="Login.html" method="POST">
+                <table>
+                    <h2>Registration</h2>
+                    <tr>
+                        
+                        <td><input id="firstName" type="text" name="fname" placeholder="First Name"></td>
+                        <td>
+                            <p id="para1"></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        
+                        <td><input id="lastName" type="text" name="lname" placeholder="Last Name"></td>
+                        <td>
+                            <p id="para2"></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        
+                        <td><input id="email" type="text" name="email" placeholder="Email:example.example@ex.ex"></td>
+                        <td>
+                            <p id="para3"></p>
+                        </td>
+                    </tr>
+                    <tr>
+                       
+                        <td><input id="password" type="password" name="password" placeholder="Password"></td>
+                        <td>
+                            <p id="para4"></p>
+                        </td>
+                    </tr>
+                    <tr>
+                       
+                        <td><input id="confirmPassword" type="password" name="confirmpassword" placeholder="Re-enter Password"></td>
+                        <td>
+                            <p id="para5"></p>
+                        </td>
+                    </tr>
+                </table>
+
+                <div>
+                    <input type="submit" id="submit" value="Register">
+                    <button onclick="location.href = 'login.html'">Login</button>
+                </div>
+
+            </form>
+        </div>
+
+
+
+
+    </div>
+
+    <script src="js/scriptRegistration.js"></script>
+</body>
+
+</html>
